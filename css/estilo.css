@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    background-image: url(raiden-shogun-5k-3840x2160-16500.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    margin-top: 40px;
+    font-style: italic;
+}
+
+#ff{
+    background-color: rgb(165, 42, 95);
+    color: rgb(21, 255, 255);
+    padding: 6px 15px;
+    border-radius: 10px;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0);
+    max-width: 300px;
+    margin: auto;
+    border-radius: 6px;
+    margin-top: 50px;
+    padding: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-style: italic;
+    border: 5px solid rgb(65, 70, 214);
+    box-shadow: 15px 10px 10px black;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+    border: 5px solid blue;
+}
+
+/* Media queries para responsividade */
+@media (max-width: 768px) {
+    header {
+        max-width: 90%;
+        padding: 10px;
+        font-size: 25px;
+    }
+
+    img {
+        width: 150px;
+        height: 150px;
+    }
+
+    h1 {
+        font-size: 24px;
+        margin-top: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        max-width: 100%;
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    img {
+        width: 100px;
+        height: 100px;
+    }
+
+    h1 {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+}
